@@ -1,6 +1,4 @@
-/* Nutritionist - Header + Hero section
-   Simple student-level clean CSS
-*/
+
 
 * {
   margin: 0;
@@ -60,7 +58,7 @@ body {
 }
 
 .contact-btn {
-  background-color: #d8f58f;
+  background-color: #1d2703;
   color: #173823;
   padding: 8px 16px;
   border-radius: 6px;
