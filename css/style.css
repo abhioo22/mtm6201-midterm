@@ -58,7 +58,7 @@ body {
 }
 
 .contact-btn {
-  background-color: #1d2703;
+  background-color: #aae611;
   color: #173823;
   padding: 8px 16px;
   border-radius: 6px;
@@ -656,3 +656,71 @@ body {
   }
 }
 
+.team-intro {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f6fbe9;
+}
+.team-intro h1 {
+  margin: 20px 0 10px;
+}
+.team-intro p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+}
+.team-categories {
+  text-align: center;
+  margin: 20px 0;
+}
+.team-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.btn-dark {
+  background-color: #0e201b;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+}
+.btn-outline {
+  background: none;
+  border: 1px solid #0e201b;
+  color: #0e201b;
+  padding: 10px 18px;
+  border-radius: 6px;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #fafcf7;
+}
+.team-member {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.team-member img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.join-team {
+  text-align: center;
+  background-color: #f6fbe9;
+  padding: 60px 20px;
+}
+.join-box {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.join-box p {
+  margin: 20px 0;
+}
