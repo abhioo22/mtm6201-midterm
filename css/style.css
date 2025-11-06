@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #faf8f1; /* beige background */
+  background-color: #faf8f1; 
   color: #1d2b24;
 }
 
@@ -142,8 +142,8 @@ body {
 }
 
 .customers img {
-  width: 50px; /* smaller avatar size */
-  margin-right: -2%; /* reduced side space */
+  width: 50px; 
+  margin-right: -2%;
   vertical-align: middle;
 }
 
@@ -152,7 +152,7 @@ body {
   font-weight: 500;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
@@ -160,7 +160,7 @@ body {
   }
 
   .nav {
-    display: none; /* you can add toggle later if needed */
+    display: none; 
   }
 
   .hero-image img {
@@ -170,7 +170,6 @@ body {
   }
 }
 
-/* ===== FEATURES SECTION ===== */
 .features {
   padding: 80px 10%;
   background-color: #f9fdf3;
@@ -327,7 +326,6 @@ body {
   }
 }
 
-/* ===== TESTIMONIALS SECTION ===== */
 .testimonials {
   background-color: #fafdf3;
   padding: 80px 10%;
@@ -724,9 +722,7 @@ body {
 .join-box p {
   margin: 20px 0;
 }
-/* ==============================
-   GLOBAL RESET & BASE STYLES
-============================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -743,9 +739,6 @@ a {
   text-decoration: none;
 }
 
-/* ==============================
-   TOP BANNER
-============================== */
 .top-banner {
   background-color: #1f3d2a;
   color: #fff;
@@ -755,9 +748,7 @@ a {
   font-size: 0.95rem;
 }
 
-/* ==============================
-   NAVBAR
-============================== */
+/* nav bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -802,9 +793,6 @@ a {
   background-color: #9dff00;
 }
 
-/* ==============================
-   HERO SECTION (HOME)
-============================== */
 .hero {
   background-color: #f5f8e8;
   padding: 50px 0;
@@ -892,24 +880,29 @@ a {
 
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
   gap: 15px;
   justify-content: center;
-  margin-bottom: 40px;
+  align-content: center;
+  margin: 0 auto 40px;
 }
 
-.small-box,
-.big-box {
+.small-box {
   background-color: #d4e9b4;
   border-radius: 6px;
-  height: 120px;
 }
 
 .big-box {
-  grid-column: span 1;
-  background: #1b3a27;
+  background-color: #ffffff;
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  grid-row: 2;
 }
+
 
 /* Welcome Text */
 .about-welcome {
@@ -932,9 +925,6 @@ a {
   line-height: 1.6;
 }
 
-/* ==============================
-   GROWTH JOURNEY SECTION
-============================== */
 .journey {
   background-color: #fafcf7;
   padding: 80px 10%;
@@ -1002,9 +992,6 @@ a {
   }
 }
 
-/* ==============================
-   COMPANY ACHIEVEMENTS
-============================== */
 .achievements {
   background-color: #f9fdf3;
   padding: 80px 10%;
@@ -1075,9 +1062,6 @@ a {
   }
 }
 
-/* ==============================
-   PROUD OF OUR ACHIEVEMENTS
-============================== */
 .proud-section {
   background-color: #f9fdf3;
   border-top: 1px solid #e5eed3;
@@ -1132,10 +1116,7 @@ a {
     align-self: center;
   }
 }
-
-/* ==============================
-   TEAM PAGE
-============================== */
+/* team page */
 .team-intro {
   text-align: center;
   padding: 60px 20px;
@@ -1174,9 +1155,7 @@ a {
   margin-bottom: 10px;
 }
 
-/* ==============================
-   FOOTER
-============================== */
+/* footor */
 footer {
   background-color: #143d27;
   color: #f1f5e8;
